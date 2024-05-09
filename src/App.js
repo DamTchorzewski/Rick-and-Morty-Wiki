@@ -20,8 +20,8 @@ function App(){
       <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<CardDetails/>} />
+        <Route path="Rick-and-Morty-Wiki/" element={<Home />} />
+        <Route path="/Rick-and-Morty-Wiki/:id" element={<CardDetails/>} />
         
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/episodes/:id" element={<CardDetails/>} />
@@ -69,7 +69,7 @@ useEffect(()=>{
           setPageNumber={setPageNumber}/>
         <div className="col-lg-8 col-12">
           <div className="row">
-            <Cards page ="/" results={results}/>
+            <Cards page ="/Rick-and-Morty-Wiki/" results={results}/>
           </div>
         </div>
         </div>
