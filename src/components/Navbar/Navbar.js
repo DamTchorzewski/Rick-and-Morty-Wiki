@@ -23,8 +23,8 @@ button[aria-expanded="false"] > .close{
 }
 `}
 </style>
-      <i class="fas fa-bars open fw-bold text-dark"></i>
-      <i class="fas fa-times close fw-bold text-dark"></i>
+      <i className="fas fa-bars open fw-bold text-dark"></i>
+      <i className="fas fa-times close fw-bold text-dark"></i>
 
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
