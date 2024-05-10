@@ -2,7 +2,7 @@
   "name": "rick-and-morty-wiki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://damtchorzewski.github.io/",
+  "homepage": "https://damtchorzewski.github.io/Rick-and-Morty-Wiki/",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.17.0",
